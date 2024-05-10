@@ -10,7 +10,7 @@ const MyButtonMeta: Meta<typeof MyButton> = {
     onPress: { action: 'pressed the button' },
   },
   args: {
-    text: 'Hello world',
+    text:'outline',   
   },
   decorators: [
     (Story) => (
@@ -27,6 +27,6 @@ export const Basic: StoryObj<typeof MyButton> = {};
 
 export const AnotherExample: StoryObj<typeof MyButton> = {
   args: {
-    text: 'Another example',
+    text:'outline',
   },
 };

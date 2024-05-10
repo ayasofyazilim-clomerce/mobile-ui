@@ -1,5 +1,6 @@
 import React from 'react';
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { Button } from '../../../components/ui/button';
 
 export type MyButtonProps = {
   onPress: () => void;
@@ -8,9 +9,13 @@ export type MyButtonProps = {
 
 export const MyButton = ({ onPress, text }: MyButtonProps) => {
   return (
-    <TouchableOpacity style={styles.container} onPress={onPress} activeOpacity={0.8}>
-      <Text style={styles.text}>{text}</Text>
-    </TouchableOpacity>
+    <Button
+      onPress={onPress}
+      variant='outline'
+      className='bg-black'
+    >
+      <Text className='text-red-600' >{text}</Text>
+    </Button>
   );
 };
 
