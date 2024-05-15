@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Starter Base",
-    "slug": "starter-base",
+    "name": "mobile-ui",
+    "slug": "mobile-ui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "a",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
